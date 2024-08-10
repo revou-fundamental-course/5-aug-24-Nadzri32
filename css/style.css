@@ -1,1 +1,9 @@
 /*INI CSS*/
+main{
+    display: flex;
+}
+
+form {
+    padding: 12px;
+    background-color: greenyellow;
+}
