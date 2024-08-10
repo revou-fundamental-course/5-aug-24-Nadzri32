@@ -1,9 +1,51 @@
 /*INI CSS*/
+
+.main-title{
+    text-align: center;
+}
+
 main{
     display: flex;
+}
+
+aside{
+    padding: 48px;
+}
+
+lllinput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 form {
     padding: 12px;
     background-color: greenyellow;
+}
+
+.button-form-container{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.button{
+    height: 32px;
+    border: none;
+    border-radius: 10%;
+}
+
+#Hitung-BMI{
+    background-color: limegreen;
+}
+
+#Reset{
+    background-color:rgb(254, 0, 0);
+}
+
+footer{
+    text-align: center;
 }
