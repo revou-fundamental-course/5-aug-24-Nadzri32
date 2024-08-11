@@ -1,5 +1,9 @@
 /*INI CSS*/
 
+* {
+    box-sizing: border-box;
+}
+
 .main-title{
     text-align: center;
 }
@@ -10,6 +14,7 @@ main{
 
 aside{
     padding: 48px;
+    width: 50%;
 }
 
 lllinput{

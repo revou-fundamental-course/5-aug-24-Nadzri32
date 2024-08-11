@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\style.css">
+    <script src="js\script.js"></script>
 </head>
 <body>
     <header>
@@ -26,17 +27,17 @@
 
             <div>
                 <h3>Berat Badan (Kg)</h3>
-                <input type="number">
+                <input type="number" id="beratbadan" min="0" max="1000" value="1">
             </div>
 
             <div>
                 <h3>Usia (Tahun)</h3>
-                <input type="number">
+                <input type="number" id="usia" min="0" max="1000" value="1">
             </div>
 
             <div>
                 <h3>Tinggi Badan (Cm)</h3>
-                <input type="number">
+                <input type="number" id="tinggibadan" min="0" max="1000" value="1">
             </div>
 
             <div class="button-form-container">
@@ -46,15 +47,21 @@
             
         </form>
 
+        <img src="image\rumus BMI.png" alt="rumus-BMI" 
+        style="margin-top: 20px;
+        margin-left: 0;
+        height: 28%;
+        width: 100%;">
+
         <article>
             <header>
                 <h3>Keunggulan Fitur</h3>
 
-                <pre>
-                    1. Menghitung Berat Badan
-                    2. Menentukan Kategori Berat Badan Ideal atau Tidak
-                    3. Mempersiapkan Program Penurunan Berat Badan
-                </pre>
+                <dl>
+                    <dt>1. Menghitung Berat Badan</dt>
+                    <dt>2. Menentukan Kategori Berat Badan Ideal atau Tidak</dt>
+                    <dt>3. Mempersiapkan Program Penurunan Berat Badan</dt>
+                </dl>
 
                 <p>Kalkulator ini boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter</p>
 
@@ -68,6 +75,12 @@
             <header>
                 HASIL
             </header>
+
+            <div>
+                <label for="">Hasil</label>
+                <span id="hasil"></span>
+            </div>
+
             <p>kjafhiahsucfhueah</p>
         </section>
       </aside>
